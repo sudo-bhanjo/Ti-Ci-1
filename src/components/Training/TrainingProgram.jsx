@@ -5,41 +5,83 @@ import { Link } from "react-router-dom";
 const TrainingProgram = () => {
   const curriculum = [
     {
-      title: "1. Tissue Culture & Greenhouse Maintenance",
+      title: "1.  Trainer Selection",
       points: [
-        "Sterile lab techniques, media preparation, and micropropagation",
-        "Climate control, organic plant care, and integrated pest management",
-        "Drip irrigation, misting systems, and sustainable nursery practices",
+        " Horticulturist, aquaculture expert, entomologist",
       ],
     },
     {
-      title: "2. Aquascaping & Terrarium Design",
+      title: "2. Weekly Curriculum:",
       points: [
-        "Hardscaping, lighting, and aquatic filtration techniques",
-        "Tropical plant selection for terrariums and nature aquariums",
-        "Display aesthetics and ecosystem-building for living art installations",
+        " Structured modules with live practice",
       ],
     },
     {
-      title: "3. Tissue Culture Applications & Business Skills",
+      title: "3.  Expert-to-Trainee Transition:",
       points: [
-        "Branding and marketing eco-products (plants, setups, décor)",
-        "Nursery setup, customer handling, and project management",
-        "Building a sustainable career in horticulture, bio-design, or urban farming",
+        " Best performers become future trainers",
+      ],
+    },
+        {
+      title: "4. Execuation Timeline",
+      points: [
+        " Training → Specialization → Assessment → Placement",
+      ],
+    },
+        {
+      title: "5. Expected Outcome",
+      points: [
+        " 15–20 trained professionals per batch, self-sustaining manpower by 3rd batch",
       ],
     },
   ];
 
   const eligibility = [
-    "Students or graduates in Biology, Botany, Biotechnology (for lab roles)",
-    "Creative minds interested in aquascaping, eco-decor, or nature-inspired design",
-    "Anyone (10+2 or above) with a hands-on passion for gardening, fishkeeping, or green living",
+ "Tissue Culture & Lab Operations",
+ "Nursery & Greenhouse Management",
+ "Aquascaping & Terrarium Artist",
+ "R&D and Quality Control",
+ "Product Management & Sales",
+         {
+      title: "Top Performer become trainer and lead future TiCi projects.",
+      points: [
+        ""
+      ],
+    },
   ];
 
-  const benefits = [
-    "₹5,000 stipend on successful completion",
-    "Free meals and accommodation during the program",
-    "Certification plus career support in labs, nurseries, design studios & more",
+  const benefits = [     
+    "✔ ₹15000 stipend (5000/month, total amount will be given only after completion)",
+    "✔ Free accommodation & meals for outstation candidates",
+    "✔ Real-world project experience",
+    "✔ Certification upon completion",
+    "✔ Direct job opportunities for Top performers.",
+            {
+      title: "1. Month-1 Fundamentals",
+      points: [
+        "Rainforest, terrarium, pond & insect culture basics",
+        "Hardscaping, misting, plumbing, electrical systems",
+        "Plant care, propagation & substrates",
+        "Pond filtration & insect breeding cycles",
+      ],
+    },
+            {
+      title: "2. Month-2 Advanced Hands-On training",
+      points: [
+        "Rainforest & vertical garden training",
+        "Nature pond maintenance",
+        "Biotope enclosures for reptiles & amphibians",
+        "Mass Insect Culture techniques",
+        "Tissue Culture Training",
+      ],
+    },
+            {
+      title: "5. Expected Outcome",
+      points: [
+        " 15–20 trained professionals per batch, self-sustaining manpower by 3rd batch",
+      ],
+    },
+
   ];
 
   return (
@@ -81,8 +123,8 @@ const TrainingProgram = () => {
         {/* Cards Grid */}
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {[ 
-            { title: "Curriculum Covers", content: curriculum },
-            { title: "Eligibility", content: eligibility },
+            { title: "Project Plan", content: curriculum },
+            { title: " Career Prospects", content: eligibility },
             { title: "Training Benefits", content: benefits },
           ].map((section, i) => (
             <motion.div

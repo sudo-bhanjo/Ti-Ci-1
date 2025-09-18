@@ -6,7 +6,7 @@ const ContactSection = () => {
             {/* Hero section */}
             <section
                 className="relative h-[80vh] w-full flex items-center justify-start bg-cover bg-center bg-no-repeat px-6 mt-9"
-                style={{ backgroundImage: `url('/services/5.webp')` }}
+                style={{ backgroundImage: `url('/Vertical garden/(6).jpg')` }}
             >
                 <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/20 z-0"></div>
 
@@ -47,7 +47,7 @@ const ContactSection = () => {
                                 {/* Image */}
                                 <div className="w-full md:w-1/2 h-full">
                                     <img
-                                        src="/gardener.jpeg"
+                                        src="Vertical garden/Kanpur.jpg"
                                         alt="Woman holding plant"
                                         className="w-full h-full object-cover rounded-t-md md:rounded-t-none md:rounded-l-md"
                                     />
@@ -67,12 +67,12 @@ const ContactSection = () => {
                                     </div>
                                     <div>
                                         <p className="font-semibold flex items-center gap-2">
-                                            <span>📞</span>+91 83369 92968
+                                            <span>📞</span>+91 9903243299
                                         </p>
                                     </div>
                                     <div>
                                         <p className="font-semibold flex items-center gap-2">
-                                            <span>📧</span>info@ticinaturelab.com
+                                            <span>📧</span>ticinaturelab@gmail.com
                                         </p>
                                     </div>
                                 </div>

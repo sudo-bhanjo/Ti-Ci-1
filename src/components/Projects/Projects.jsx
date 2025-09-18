@@ -5,28 +5,28 @@ import { Link } from 'react-router-dom';
 
 const project = [
   {
-    name: 'Public Aquarium',
+    name: `TiCi Nature Aquarium`,
     location: 'Metro Cities',
     image: '/projects/Public-Aquarium.jpg',
     description:
       'We specialize in designing stunning public aquarium installations for metropolitan areas, creating captivating underwater worlds.',
   },
   {
-    name: 'Indoor Rainforest',
+    name: 'TiCi Indoor Rainforest',
     location: 'Luxury Resorts',
-    image: '/public/projects/indoor rainforest.jpg',
+    image: '/projects/indoor rainforest.jpg',
     description:
       'Transform luxury resorts with lush indoor rainforest décor, bringing vibrant greenery and tropical ambience indoors.',
   },
   {
-    name: 'Vertical Farming',
+    name: 'TiCi Urban Green Wall',
     location: 'Urban Balconies',
     image: '/projects/vertical-farming.jpg',
     description:
       'Create sustainable vertical farming setups for urban balconies, helping city dwellers grow their own fresh produce.',
   },
   {
-    name: 'Aquaponic Demos',
+    name: 'TiCi Aqua',
     location: 'Schools',
     image: '/projects/3.avif',
     description:

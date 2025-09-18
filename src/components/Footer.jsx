@@ -53,7 +53,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center space-x-2">
               <Leaf className="w-8 h-8 text-green-400" />
-              <span className="text-2xl font-bold">Tici</span>
+              <span className="text-2xl font-bold">TiCi NatureLab</span>
             </div>
             
             <p className="text-gray-300 leading-relaxed">

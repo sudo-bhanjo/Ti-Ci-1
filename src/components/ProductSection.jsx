@@ -11,22 +11,22 @@ const cardVariants = {
 
 const products = [
   {
-    title: "Vertical Garden",
+    title: "TiCi Urban Green Wall",
     image: "/vertical-garden.jpg",
     description: "Beautiful living walls to transform any space with greenery."
   },
   {
-    title: "Nature Aquarium",
+    title: "TiCi Nature Aquarium",
     image: "/nature-aquarium.jpg",
     description: "Complete aquascaping solutions for stunning underwater landscapes."
   },
   {
-    title: "Nature Pond",
+    title: "TiCi Nature Pond",
     image: "/Nature-pond/IMG_0451.JPG",
     description: "Create your own natural water feature with our pond solutions."
   },
   {
-    title: "Terrarium",
+    title: "TiCi Terra",
     image: "/Terrarium/1.jpg",
     description: "Self-contained miniature ecosystems in beautiful glass containers."
   },
