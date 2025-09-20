@@ -76,9 +76,12 @@ const TrainingProgram = () => {
       ],
     },
             {
-      title: "5. Expected Outcome",
+      title: "3. Month-3 Projects & Specialization",
       points: [
-        " 15–20 trained professionals per batch, self-sustaining manpower by 3rd batch",
+        "Specialization (rainforest/pond/terrarium/insects)",
+        "Real project execution at TiCi",
+        "Final project assessment",
+        "Selection of future trainers",
       ],
     },
 
