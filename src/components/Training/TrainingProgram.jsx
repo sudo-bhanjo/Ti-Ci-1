@@ -13,7 +13,7 @@ const TrainingProgram = () => {
         "Pond filtration & insect breeding cycles",
       ],
     },
-            {
+    {
       title: "Month-2 Advanced Hands-On training",
       points: [
         "Rainforest & vertical garden training",
@@ -23,7 +23,7 @@ const TrainingProgram = () => {
         "Tissue Culture Training",
       ],
     },
-            {
+    {
       title: "Month-3 Projects & Specialization",
       points: [
         "Specialization (rainforest/pond/terrarium/insects)",
@@ -35,34 +35,34 @@ const TrainingProgram = () => {
   ];
 
   const benefits = [
-"Science students (Biology/Botany/Biotech)",
-"Business or engineering students (for project/business roles)",
-"Creative students with interest in aquascaping or design",
-"Passionate learners (even 10+2) with skills or interest in green industries",
-         {
+    "Science students (Biology/Botany/Biotech)",
+    "Business or engineering students (for project/business roles)",
+    "Creative students with interest in aquascaping or design",
+    "Passionate learners (even 10+2) with skills or interest in green industries",
+    {
       title: "How to apply",
       points: [
         "Send your resume to [contact.tici@gmail.com] or contact [+91 90511 91982] for details.",
-        " You can also apply through our website www.ticinaturelab.com"
+        " You can also apply through our website www.ticinaturelab.com",
       ],
     },
   ];
 
-  const eligibility = [     
+  const eligibility = [
     "₹15000 stipend (5000/month, total amount will be given only after completion)",
     "Free accommodation & meals for outstation candidates",
     "Real-world project experience",
     "Certification upon completion",
     "Direct job opportunities for Top performers.",
-         {
+    {
       title: "Carrer Prospectus",
       points: [
- "Tissue Culture & Lab Operations",
- "Nursery & Greenhouse Management",
- "Aquascaping & Terrarium Artist",
- "R&D and Quality Control",
- "Product Management & Sales",
- "Top Performer become trainer and lead future TiCi projects.",
+        "Tissue Culture & Lab Operations",
+        "Nursery & Greenhouse Management",
+        "Aquascaping & Terrarium Artist",
+        "R&D and Quality Control",
+        "Product Management & Sales",
+        "Top Performer become trainer and lead future TiCi projects.",
       ],
     },
   ];
@@ -105,7 +105,7 @@ const TrainingProgram = () => {
 
         {/* Cards Grid */}
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {[ 
+          {[
             { title: "Curriculum", content: curriculum },
             { title: "Training Benefits", content: eligibility },
             { title: "Eligibility", content: benefits },
@@ -117,15 +117,17 @@ const TrainingProgram = () => {
               transition={{ duration: 0.6, delay: 0.8 + i * 0.2 }}
               className="bg-[#c6d4c6] text-[#2E442F] p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow"
             >
-              <h2 className="text-xl font-semibold mb-4">{section.title}</h2>
+              <h2 className="text-2xl font-bold mb-4">{section.title}</h2>
               <ul className="pl-5 list-disc space-y-2 text-sm text-[#2E442F]/90">
                 {Array.isArray(section.content)
                   ? section.content.map((item, idx) =>
                       typeof item === "string" ? (
                         <li key={idx}>{item}</li>
                       ) : (
-                        <li key={idx}>
-                          <strong>{item.title}</strong>
+                        <li key={idx} className="list-none">
+                          <h2 className="text-2xl font-bold mb-2">
+                            {item.title}
+                          </h2>
                           <ul className="list-disc pl-5 mt-1 space-y-1">
                             {item.points.map((p, j) => (
                               <li key={j}>{p}</li>
