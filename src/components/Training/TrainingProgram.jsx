@@ -5,59 +5,7 @@ import { Link } from "react-router-dom";
 const TrainingProgram = () => {
   const curriculum = [
     {
-      title: "1.  Trainer Selection",
-      points: [
-        " Horticulturist, aquaculture expert, entomologist",
-      ],
-    },
-    {
-      title: "2. Weekly Curriculum:",
-      points: [
-        " Structured modules with live practice",
-      ],
-    },
-    {
-      title: "3.  Expert-to-Trainee Transition:",
-      points: [
-        " Best performers become future trainers",
-      ],
-    },
-        {
-      title: "4. Execuation Timeline",
-      points: [
-        " Training → Specialization → Assessment → Placement",
-      ],
-    },
-        {
-      title: "5. Expected Outcome",
-      points: [
-        " 15–20 trained professionals per batch, self-sustaining manpower by 3rd batch",
-      ],
-    },
-  ];
-
-  const eligibility = [
- "Tissue Culture & Lab Operations",
- "Nursery & Greenhouse Management",
- "Aquascaping & Terrarium Artist",
- "R&D and Quality Control",
- "Product Management & Sales",
-         {
-      title: "Top Performer become trainer and lead future TiCi projects.",
-      points: [
-        ""
-      ],
-    },
-  ];
-
-  const benefits = [     
-    "✔ ₹15000 stipend (5000/month, total amount will be given only after completion)",
-    "✔ Free accommodation & meals for outstation candidates",
-    "✔ Real-world project experience",
-    "✔ Certification upon completion",
-    "✔ Direct job opportunities for Top performers.",
-            {
-      title: "1. Month-1 Fundamentals",
+      title: "Month-1 Fundamentals",
       points: [
         "Rainforest, terrarium, pond & insect culture basics",
         "Hardscaping, misting, plumbing, electrical systems",
@@ -66,7 +14,7 @@ const TrainingProgram = () => {
       ],
     },
             {
-      title: "2. Month-2 Advanced Hands-On training",
+      title: "Month-2 Advanced Hands-On training",
       points: [
         "Rainforest & vertical garden training",
         "Nature pond maintenance",
@@ -76,7 +24,7 @@ const TrainingProgram = () => {
       ],
     },
             {
-      title: "3. Month-3 Projects & Specialization",
+      title: "Month-3 Projects & Specialization",
       points: [
         "Specialization (rainforest/pond/terrarium/insects)",
         "Real project execution at TiCi",
@@ -84,7 +32,39 @@ const TrainingProgram = () => {
         "Selection of future trainers",
       ],
     },
+  ];
 
+  const benefits = [
+"Science students (Biology/Botany/Biotech)",
+"Business or engineering students (for project/business roles)",
+"Creative students with interest in aquascaping or design",
+"Passionate learners (even 10+2) with skills or interest in green industries",
+         {
+      title: "How to apply",
+      points: [
+        "Send your resume to [contact.tici@gmail.com] or contact [+91 90511 91982] for details.",
+        " You can also apply through our website www.ticinaturelab.com"
+      ],
+    },
+  ];
+
+  const eligibility = [     
+    "₹15000 stipend (5000/month, total amount will be given only after completion)",
+    "Free accommodation & meals for outstation candidates",
+    "Real-world project experience",
+    "Certification upon completion",
+    "Direct job opportunities for Top performers.",
+         {
+      title: "Carrer Prospectus",
+      points: [
+ "Tissue Culture & Lab Operations",
+ "Nursery & Greenhouse Management",
+ "Aquascaping & Terrarium Artist",
+ "R&D and Quality Control",
+ "Product Management & Sales",
+ "Top Performer become trainer and lead future TiCi projects.",
+      ],
+    },
   ];
 
   return (
@@ -126,9 +106,9 @@ const TrainingProgram = () => {
         {/* Cards Grid */}
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {[ 
-            { title: "Project Plan", content: curriculum },
-            { title: " Career Prospects", content: eligibility },
-            { title: "Training Benefits", content: benefits },
+            { title: "Curriculum", content: curriculum },
+            { title: "Training Benefits", content: eligibility },
+            { title: "Eligibility", content: benefits },
           ].map((section, i) => (
             <motion.div
               key={i}
