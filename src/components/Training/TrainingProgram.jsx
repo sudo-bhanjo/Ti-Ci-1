@@ -55,7 +55,7 @@ const TrainingProgram = () => {
     "Certification upon completion",
     "Direct job opportunities for Top performers.",
     {
-      title: "Carrer Prospectus",
+      title: "Career Prospectus",
       points: [
         "Tissue Culture & Lab Operations",
         "Nursery & Greenhouse Management",
