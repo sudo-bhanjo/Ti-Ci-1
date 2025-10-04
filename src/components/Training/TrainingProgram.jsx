@@ -84,14 +84,19 @@ const TrainingProgram = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          {/* Banner Image */}
+          {/* Banner Image - Full Responsive */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.3 }}
-            className="mb-12 w-full h-[60vh] rounded-xl shadow-lg bg-center bg-no-repeat bg-cover"
-            style={{ backgroundImage: "url('/NATURE EDUCATION PROGRAM.png')" }}
-          ></motion.div>
+            className="mb-12 w-full max-w-5xl mx-auto rounded-xl shadow-lg overflow-hidden"
+          >
+            <img
+              src="/NATURE EDUCATION PROGRAM.png"
+              alt="Nature Education Program"
+              className="w-full h-auto object-contain"
+            />
+          </motion.div>
 
           <motion.p
             initial={{ opacity: 0, y: 10 }}
@@ -104,7 +109,7 @@ const TrainingProgram = () => {
         </motion.div>
 
         {/* Cards Grid */}
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {[
             { title: "Curriculum", content: curriculum },
             { title: "Training Benefits", content: eligibility },
